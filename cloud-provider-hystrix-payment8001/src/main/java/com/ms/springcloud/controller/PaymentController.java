@@ -1,8 +1,10 @@
 package com.ms.springcloud.controller;
 
+import com.ms.springcloud.service.PaymentService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +18,9 @@ public class PaymentController {
 
     @Value("${server.port}")
     private String serverPort;
+
+    @Autowired
+    private PaymentService paymentService;
 
     @GetMapping("/payment/hystrix/ok/{id}")
     public String paymentInfo_OK1(@PathVariable("id") Integer id) {
@@ -34,7 +39,7 @@ public class PaymentController {
     // 服务熔断
     @GetMapping("/payment/circuit/{id}")
     public String paymentCircuitBreaker1(@PathVariable("id") Integer id) {
-        String result = this.paymentCircuitBreaker(id);
+        String result = paymentService.paymentCircuitBreaker(id);
         log.info("****result: " + result);
         return result;
     }
@@ -68,22 +73,5 @@ public class PaymentController {
         return "线程池： " + Thread.currentThread().getName() + " 8001系统繁忙系统报错,请稍后再试id: " + id + "\t" + "( Ĭ ^ Ĭ )";
     }
 
-    // 服务熔断
-    @HystrixCommand(fallbackMethod = "paymentCircuitBreaker_fallback",commandProperties ={
-            @HystrixProperty(name = "circuitBreaker.enabled",value = "true"), //是否开启断路器
-            @HystrixProperty(name = "circuitBreaker.requestVolumeThreshold",value = "10"), //请求次数
-            @HystrixProperty(name = "circuitBreaker.sleepWindowInMilliseconds",value = "1000"), //时间窗口期
-            @HystrixProperty(name = "circuitBreaker.errorThresholdPercentage",value = "60"),//失败率达到多少后跳闸
-    })
-    public String paymentCircuitBreaker(@PathVariable("id") Integer id) {
-        if (id < 0) {
-            throw new RuntimeException("******id 不能为负数");
-        }
-        String serialNumber = UUID.randomUUID().toString();
-        return Thread.currentThread().getName()+"\t"+ "调用成功，流水号：" + serialNumber;
-    }
 
-    public String paymentCircuitBreaker_fallback(@PathVariable("id") Integer id) {
-        return "id 不能负数，请稍后再试，o(╥﹏╥)o id：" + id;
-    }
 }
