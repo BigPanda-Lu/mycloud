@@ -27,4 +27,9 @@ public class OrderController {
         return forObject;
     }
 
+    @GetMapping("/consumer/payment/zipkin")
+    public String zipkin(){
+        String forObject = restTemplate.getForObject("http://cloud-payment-service/payment/zipkin", String.class);
+        return forObject;
+    }
 }
