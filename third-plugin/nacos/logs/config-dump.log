@@ -1,0 +1,12 @@
+2020-03-17 14:05:04,009 WARN [dump-ignore] ignore to save cache file. groupKey=nacos-config-client-dev.yaml+DEFAULT_GROUP, md5=b14e89878c4fa0e074e88acb210d55fe, lastModifiedOld=1584422554942, lastModifiedNew=1584425103922
+
+2020-03-17 14:25:59,066 INFO [dump-all-ok] nacos-config-client-dev.yaml+DEFAULT_GROUP, 1584425103922, length=43, md5=b14e89878c4fa0e074e88acb210d55fe
+
+2020-03-17 14:25:59,067 INFO [dump-all-ok] nacos-config-client-test.yaml+DEFAULT_GROUP, 1584425078724, length=39, md5=29cb4205d46566943d561244dd7ca4da
+
+2020-03-17 14:25:59,067 INFO [dump-all-ok] nacos-config-client-info.yaml+DEV_GROUP, 1584425330098, length=51, md5=9f514d3c323283847cd22fb63e8e59bc
+
+2020-03-17 14:25:59,067 INFO [dump-all-ok] nacos-config-client-info.yaml+TEST_GROUP, 1584425402223, length=57, md5=7ee37a4b8b75c8788d82278a692a56c9
+
+2020-03-17 14:25:59,067 INFO [dump-all-ok] nacos-config-client-info.yaml+DEFAULT_GROUP, 1584425595248, length=43, md5=d002fabcde87a2d8308f31662b4fa500
+

@@ -1,0 +1,162 @@
+2020-03-17 10:39:15,126 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:39:15,132 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:39:15,148 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:40:21,646 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:40:28,372 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:42:31,452 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:42:31,452 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
+2020-03-17 10:42:35,499 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:42:35,499 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:42:40,053 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:42:40,053 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
+2020-03-17 10:44:52,674 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:44:52,675 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:44:52,676 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 10:44:55,727 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:44:55,727 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,192.168.86.120:9002_true,
+
+2020-03-17 10:44:55,728 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,192.168.86.120:9002_true,
+
+2020-03-17 10:55:42,245 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:55:42,246 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9002_true,
+
+2020-03-17 10:55:42,322 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 10:55:42,322 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
+2020-03-17 11:00:20,438 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:00:20,438 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 11:00:20,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,
+
+2020-03-17 11:00:29,067 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:00:29,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,192.168.86.120:9002_true,
+
+2020-03-17 11:00:29,076 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9001_true,192.168.86.120:9002_true,
+
+2020-03-17 11:00:51,972 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:00:51,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:00:51,972 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:00:51,972 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:00:51,973 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:00:51,974 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:01:52,698 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:01:52,698 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 
+
+2020-03-17 11:01:52,699 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:01:52,699 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 
+
+2020-03-17 11:02:07,394 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:02:07,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:02:07,395 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:02:07,395 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:02:07,403 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:02:07,403 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 192.168.86.120:83_true,
+
+2020-03-17 11:04:27,243 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:04:27,243 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 192.168.86.120:9002_true,
+
+2020-03-17 11:04:27,292 INFO DEFAULT_GROUP@@nacos-payment-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:9002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:04:27,292 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-payment-provider, ips: 
+
+2020-03-17 11:04:27,353 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:04:27,353 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 
+
+2020-03-17 11:04:27,354 INFO DEFAULT_GROUP@@nacos-order-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:83:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 11:04:27,354 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-order-consumer, ips: 
+
+2020-03-17 13:20:51,929 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 13:20:51,929 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 13:20:51,930 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 13:49:20,802 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 13:49:20,802 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 
+
+2020-03-17 14:05:05,754 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:05:05,755 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:05:05,760 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:05:27,384 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:05:27,384 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 
+
+2020-03-17 14:05:41,581 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:05:41,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:05:41,584 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:06:46,811 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:06:46,811 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 
+
+2020-03-17 14:11:06,840 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:11:06,841 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:11:06,841 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:11:27,462 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:11:27,462 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 
+
+2020-03-17 14:11:50,141 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:11:50,141 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:11:50,152 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:12:08,379 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:12:08,380 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 
+
+2020-03-17 14:15:42,085 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:15:42,085 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:15:42,087 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 192.168.86.120:3377_true,
+
+2020-03-17 14:16:57,539 INFO DEFAULT_GROUP@@nacos-config-client {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.86.120:3377:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-03-17 14:16:57,539 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-config-client, ips: 
+
